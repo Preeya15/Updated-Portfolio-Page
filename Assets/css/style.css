@@ -1,0 +1,99 @@
+.container {
+    width: auto;
+    padding: 40px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: darkblue;
+}
+.page-header {
+    padding: 10px;
+    margin: auto;
+}
+p {
+    font-size: medium;
+    color: black;
+    font-family:sans-serif;
+}
+
+body {
+    /* background color lightblue for full screen*/
+    font-size: 14px;
+    line-height: 20px;
+    background-color: lightblue
+}
+
+
+.row {
+    margin: 8px -16px;
+    padding: 15px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 15px;
+  }
+
+
+.parent-div {
+    height: 150px; 
+    width: 100%;
+   }
+   
+.parent-div img {
+    height: 100%;
+    width: 100%;
+   }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+
+.footer {
+    /*sticky footer with background color as gray*/
+    bottom: 0;
+    background-color: gray;
+    border-style: double;
+    outline: black;
+    outline-offset: 2px;
+    padding: 5px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    /* responsive screen settting for max width of 800, lower than 800 will have background color as lightpink*/
+    body{
+      background-color: lightpink;
+      width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
